@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import Board from './board';
+import Keyboard from './keyboard';
 import './App.css';
 
-function App() {
+// App component that renders the Board and Keyboard components
+const App = () => {
+  const guesses = ["might", "flood", "stray"];
+  const answer = "moody";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Wordle - React Edition</h1>
+      <h2>Guess the word</h2>
+      <Board guesses={guesses} answer={answer} />
+      <Keyboard />
     </div>
   );
 }
