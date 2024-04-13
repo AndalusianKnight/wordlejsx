@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wordlejsx/static/css/main.8ca3d5d2.css",
+    "main.js": "/wordlejsx/static/js/main.05c11eef.js",
+    "static/js/453.0472fe85.chunk.js": "/wordlejsx/static/js/453.0472fe85.chunk.js",
+    "index.html": "/wordlejsx/index.html",
+    "main.8ca3d5d2.css.map": "/wordlejsx/static/css/main.8ca3d5d2.css.map",
+    "main.05c11eef.js.map": "/wordlejsx/static/js/main.05c11eef.js.map",
+    "453.0472fe85.chunk.js.map": "/wordlejsx/static/js/453.0472fe85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca3d5d2.css",
+    "static/js/main.05c11eef.js"
+  ]
+}
